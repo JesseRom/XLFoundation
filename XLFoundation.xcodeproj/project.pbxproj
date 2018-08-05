@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49378E972116B992005AAE98 /* NSDictionary+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E5E2116B991005AAE98 /* NSDictionary+XLExtension.m */; };
+		49378E982116B992005AAE98 /* NSDictionary+XLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E5F2116B991005AAE98 /* NSDictionary+XLURL.m */; };
+		49378E992116B992005AAE98 /* NSMutableAttributedString+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E632116B991005AAE98 /* NSMutableAttributedString+Format.m */; };
+		49378E9A2116B992005AAE98 /* CLLocation+Sino.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E672116B991005AAE98 /* CLLocation+Sino.m */; };
+		49378E9B2116B992005AAE98 /* NSLocale+XLExtenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E6A2116B991005AAE98 /* NSLocale+XLExtenstion.m */; };
+		49378E9C2116B992005AAE98 /* NSData+XLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E6D2116B991005AAE98 /* NSData+XLEncrypt.m */; };
+		49378E9D2116B992005AAE98 /* NSData+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E6F2116B991005AAE98 /* NSData+XLExtension.m */; };
+		49378E9E2116B992005AAE98 /* NSURL+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E722116B991005AAE98 /* NSURL+XLExtension.m */; };
+		49378E9F2116B992005AAE98 /* NSString+XLRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E752116B991005AAE98 /* NSString+XLRender.m */; };
+		49378EA02116B992005AAE98 /* NSString+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E762116B991005AAE98 /* NSString+XLExtension.m */; };
+		49378EA12116B992005AAE98 /* NSString+XLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E772116B991005AAE98 /* NSString+XLEncode.m */; };
+		49378EA22116B992005AAE98 /* NSString+XLValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E792116B991005AAE98 /* NSString+XLValidate.m */; };
+		49378EA32116B992005AAE98 /* NSString+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E7A2116B991005AAE98 /* NSString+Compare.m */; };
+		49378EA42116B992005AAE98 /* NSString+XLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E7C2116B991005AAE98 /* NSString+XLEncrypt.m */; };
+		49378EA52116B992005AAE98 /* NSString+XLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E802116B991005AAE98 /* NSString+XLJSON.m */; };
+		49378EA62116B992005AAE98 /* NSString+XLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E812116B991005AAE98 /* NSString+XLBase64.m */; };
+		49378EA72116B992005AAE98 /* NSArray+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E852116B991005AAE98 /* NSArray+XLExtension.m */; };
+		49378EA82116B992005AAE98 /* NSObject+XLSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E882116B991005AAE98 /* NSObject+XLSwizzling.m */; };
+		49378EA92116B992005AAE98 /* NSObject+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E892116B991005AAE98 /* NSObject+XLExtension.m */; };
+		49378EAA2116B992005AAE98 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E8D2116B991005AAE98 /* GTMNSString+URLArguments.m */; };
+		49378EAB2116B992005AAE98 /* GTMMZDBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E8E2116B991005AAE98 /* GTMMZDBase64.m */; };
+		49378EAC2116B992005AAE98 /* NSDate+XLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E942116B991005AAE98 /* NSDate+XLUtilities.m */; };
+		49378EAD2116B992005AAE98 /* NSDate+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E952116B991005AAE98 /* NSDate+XLExtension.m */; };
+		495BC9D82113472300C760CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BC9D72113472300C760CC /* AppDelegate.m */; };
+		495BC9DB2113472300C760CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BC9DA2113472300C760CC /* ViewController.m */; };
+		495BC9DE2113472300C760CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495BC9DC2113472300C760CC /* Main.storyboard */; };
+		495BC9E02113472300C760CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495BC9DF2113472300C760CC /* Assets.xcassets */; };
+		495BC9E32113472300C760CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495BC9E12113472300C760CC /* LaunchScreen.storyboard */; };
+		495BC9E62113472300C760CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BC9E52113472300C760CC /* main.m */; };
+		495BC9F02113472400C760CC /* XLFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BC9EF2113472400C760CC /* XLFoundationTests.m */; };
+		7C59C6EB46A7FD776867CCFF /* libPods-XLFoundationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35555F971D25D5B8C9A6AE23 /* libPods-XLFoundationTests.a */; };
+		918F18BA5F876009D67D329D /* libPods-XLFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CACDE2A53B0DC390FADB75 /* libPods-XLFoundation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		495BC9EC2113472400C760CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495BC9CB2113472300C760CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495BC9D22113472300C760CC;
+			remoteInfo = XLFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088C4B1D3D73792FB940237E /* Pods-XLFoundationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFoundationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLFoundationTests/Pods-XLFoundationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35555F971D25D5B8C9A6AE23 /* libPods-XLFoundationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLFoundationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49378E5E2116B991005AAE98 /* NSDictionary+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XLExtension.m"; sourceTree = "<group>"; };
+		49378E5F2116B991005AAE98 /* NSDictionary+XLURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XLURL.m"; sourceTree = "<group>"; };
+		49378E602116B991005AAE98 /* NSDictionary+XLURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XLURL.h"; sourceTree = "<group>"; };
+		49378E612116B991005AAE98 /* NSDictionary+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XLExtension.h"; sourceTree = "<group>"; };
+		49378E632116B991005AAE98 /* NSMutableAttributedString+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Format.m"; sourceTree = "<group>"; };
+		49378E642116B991005AAE98 /* NSMutableAttributedString+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Format.h"; sourceTree = "<group>"; };
+		49378E662116B991005AAE98 /* CLLocation+Sino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Sino.h"; sourceTree = "<group>"; };
+		49378E672116B991005AAE98 /* CLLocation+Sino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Sino.m"; sourceTree = "<group>"; };
+		49378E692116B991005AAE98 /* NSLocale+XLExtenstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale+XLExtenstion.h"; sourceTree = "<group>"; };
+		49378E6A2116B991005AAE98 /* NSLocale+XLExtenstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+XLExtenstion.m"; sourceTree = "<group>"; };
+		49378E6C2116B991005AAE98 /* NSData+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XLExtension.h"; sourceTree = "<group>"; };
+		49378E6D2116B991005AAE98 /* NSData+XLEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XLEncrypt.m"; sourceTree = "<group>"; };
+		49378E6E2116B991005AAE98 /* NSData+XLEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XLEncrypt.h"; sourceTree = "<group>"; };
+		49378E6F2116B991005AAE98 /* NSData+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XLExtension.m"; sourceTree = "<group>"; };
+		49378E712116B991005AAE98 /* NSURL+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+XLExtension.h"; sourceTree = "<group>"; };
+		49378E722116B991005AAE98 /* NSURL+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+XLExtension.m"; sourceTree = "<group>"; };
+		49378E742116B991005AAE98 /* NSString+XLEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLEncrypt.h"; sourceTree = "<group>"; };
+		49378E752116B991005AAE98 /* NSString+XLRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLRender.m"; sourceTree = "<group>"; };
+		49378E762116B991005AAE98 /* NSString+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLExtension.m"; sourceTree = "<group>"; };
+		49378E772116B991005AAE98 /* NSString+XLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLEncode.m"; sourceTree = "<group>"; };
+		49378E782116B991005AAE98 /* NSString+XLJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLJSON.h"; sourceTree = "<group>"; };
+		49378E792116B991005AAE98 /* NSString+XLValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLValidate.m"; sourceTree = "<group>"; };
+		49378E7A2116B991005AAE98 /* NSString+Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Compare.m"; sourceTree = "<group>"; };
+		49378E7B2116B991005AAE98 /* NSString+XLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLBase64.h"; sourceTree = "<group>"; };
+		49378E7C2116B991005AAE98 /* NSString+XLEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLEncrypt.m"; sourceTree = "<group>"; };
+		49378E7D2116B991005AAE98 /* NSString+XLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLEncode.h"; sourceTree = "<group>"; };
+		49378E7E2116B991005AAE98 /* NSString+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLExtension.h"; sourceTree = "<group>"; };
+		49378E7F2116B991005AAE98 /* NSString+XLRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLRender.h"; sourceTree = "<group>"; };
+		49378E802116B991005AAE98 /* NSString+XLJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLJSON.m"; sourceTree = "<group>"; };
+		49378E812116B991005AAE98 /* NSString+XLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLBase64.m"; sourceTree = "<group>"; };
+		49378E822116B991005AAE98 /* NSString+Compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Compare.h"; sourceTree = "<group>"; };
+		49378E832116B991005AAE98 /* NSString+XLValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLValidate.h"; sourceTree = "<group>"; };
+		49378E852116B991005AAE98 /* NSArray+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XLExtension.m"; sourceTree = "<group>"; };
+		49378E862116B991005AAE98 /* NSArray+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XLExtension.h"; sourceTree = "<group>"; };
+		49378E882116B991005AAE98 /* NSObject+XLSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLSwizzling.m"; sourceTree = "<group>"; };
+		49378E892116B991005AAE98 /* NSObject+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLExtension.m"; sourceTree = "<group>"; };
+		49378E8A2116B991005AAE98 /* NSObject+XLSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLSwizzling.h"; sourceTree = "<group>"; };
+		49378E8B2116B991005AAE98 /* NSObject+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLExtension.h"; sourceTree = "<group>"; };
+		49378E8D2116B991005AAE98 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		49378E8E2116B991005AAE98 /* GTMMZDBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMZDBase64.m; sourceTree = "<group>"; };
+		49378E8F2116B991005AAE98 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		49378E902116B991005AAE98 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		49378E912116B991005AAE98 /* GTMMZDBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMZDBase64.h; sourceTree = "<group>"; };
+		49378E932116B991005AAE98 /* NSDate+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XLExtension.h"; sourceTree = "<group>"; };
+		49378E942116B991005AAE98 /* NSDate+XLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XLUtilities.m"; sourceTree = "<group>"; };
+		49378E952116B991005AAE98 /* NSDate+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XLExtension.m"; sourceTree = "<group>"; };
+		49378E962116B991005AAE98 /* NSDate+XLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XLUtilities.h"; sourceTree = "<group>"; };
+		495BC9D32113472300C760CC /* XLFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495BC9D62113472300C760CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		495BC9D72113472300C760CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		495BC9D92113472300C760CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		495BC9DA2113472300C760CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		495BC9DD2113472300C760CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		495BC9DF2113472300C760CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495BC9E22113472300C760CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		495BC9E42113472300C760CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495BC9E52113472300C760CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495BC9EB2113472400C760CC /* XLFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		495BC9EF2113472400C760CC /* XLFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFoundationTests.m; sourceTree = "<group>"; };
+		495BC9F12113472400C760CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5841A07FF14430B9284AB902 /* Pods-XLFoundationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFoundationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLFoundationTests/Pods-XLFoundationTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A829C715356AA760649A92E /* Pods-XLFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLFoundation/Pods-XLFoundation.release.xcconfig"; sourceTree = "<group>"; };
+		C0CACDE2A53B0DC390FADB75 /* libPods-XLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9705E026537B285A6EDF606 /* Pods-XLFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFoundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLFoundation/Pods-XLFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495BC9D02113472300C760CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918F18BA5F876009D67D329D /* libPods-XLFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495BC9E82113472400C760CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C59C6EB46A7FD776867CCFF /* libPods-XLFoundationTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49378E5C2116B991005AAE98 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				49378E5D2116B991005AAE98 /* NSDictionary */,
+				49378E622116B991005AAE98 /* NSMutableAttributedString */,
+				49378E652116B991005AAE98 /* CLLocation */,
+				49378E682116B991005AAE98 /* NSLocale */,
+				49378E6B2116B991005AAE98 /* NSData */,
+				49378E702116B991005AAE98 /* NSURL */,
+				49378E732116B991005AAE98 /* NSString */,
+				49378E842116B991005AAE98 /* NSArray */,
+				49378E872116B991005AAE98 /* NSObject */,
+				49378E8C2116B991005AAE98 /* ThirdParty */,
+				49378E922116B991005AAE98 /* NSDate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		49378E5D2116B991005AAE98 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				49378E5E2116B991005AAE98 /* NSDictionary+XLExtension.m */,
+				49378E5F2116B991005AAE98 /* NSDictionary+XLURL.m */,
+				49378E602116B991005AAE98 /* NSDictionary+XLURL.h */,
+				49378E612116B991005AAE98 /* NSDictionary+XLExtension.h */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		49378E622116B991005AAE98 /* NSMutableAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				49378E632116B991005AAE98 /* NSMutableAttributedString+Format.m */,
+				49378E642116B991005AAE98 /* NSMutableAttributedString+Format.h */,
+			);
+			path = NSMutableAttributedString;
+			sourceTree = "<group>";
+		};
+		49378E652116B991005AAE98 /* CLLocation */ = {
+			isa = PBXGroup;
+			children = (
+				49378E662116B991005AAE98 /* CLLocation+Sino.h */,
+				49378E672116B991005AAE98 /* CLLocation+Sino.m */,
+			);
+			path = CLLocation;
+			sourceTree = "<group>";
+		};
+		49378E682116B991005AAE98 /* NSLocale */ = {
+			isa = PBXGroup;
+			children = (
+				49378E692116B991005AAE98 /* NSLocale+XLExtenstion.h */,
+				49378E6A2116B991005AAE98 /* NSLocale+XLExtenstion.m */,
+			);
+			path = NSLocale;
+			sourceTree = "<group>";
+		};
+		49378E6B2116B991005AAE98 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				49378E6C2116B991005AAE98 /* NSData+XLExtension.h */,
+				49378E6D2116B991005AAE98 /* NSData+XLEncrypt.m */,
+				49378E6E2116B991005AAE98 /* NSData+XLEncrypt.h */,
+				49378E6F2116B991005AAE98 /* NSData+XLExtension.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		49378E702116B991005AAE98 /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				49378E712116B991005AAE98 /* NSURL+XLExtension.h */,
+				49378E722116B991005AAE98 /* NSURL+XLExtension.m */,
+			);
+			path = NSURL;
+			sourceTree = "<group>";
+		};
+		49378E732116B991005AAE98 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				49378E742116B991005AAE98 /* NSString+XLEncrypt.h */,
+				49378E752116B991005AAE98 /* NSString+XLRender.m */,
+				49378E762116B991005AAE98 /* NSString+XLExtension.m */,
+				49378E772116B991005AAE98 /* NSString+XLEncode.m */,
+				49378E782116B991005AAE98 /* NSString+XLJSON.h */,
+				49378E792116B991005AAE98 /* NSString+XLValidate.m */,
+				49378E7A2116B991005AAE98 /* NSString+Compare.m */,
+				49378E7B2116B991005AAE98 /* NSString+XLBase64.h */,
+				49378E7C2116B991005AAE98 /* NSString+XLEncrypt.m */,
+				49378E7D2116B991005AAE98 /* NSString+XLEncode.h */,
+				49378E7E2116B991005AAE98 /* NSString+XLExtension.h */,
+				49378E7F2116B991005AAE98 /* NSString+XLRender.h */,
+				49378E802116B991005AAE98 /* NSString+XLJSON.m */,
+				49378E812116B991005AAE98 /* NSString+XLBase64.m */,
+				49378E822116B991005AAE98 /* NSString+Compare.h */,
+				49378E832116B991005AAE98 /* NSString+XLValidate.h */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		49378E842116B991005AAE98 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				49378E852116B991005AAE98 /* NSArray+XLExtension.m */,
+				49378E862116B991005AAE98 /* NSArray+XLExtension.h */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		49378E872116B991005AAE98 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				49378E882116B991005AAE98 /* NSObject+XLSwizzling.m */,
+				49378E892116B991005AAE98 /* NSObject+XLExtension.m */,
+				49378E8A2116B991005AAE98 /* NSObject+XLSwizzling.h */,
+				49378E8B2116B991005AAE98 /* NSObject+XLExtension.h */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		49378E8C2116B991005AAE98 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				49378E8D2116B991005AAE98 /* GTMNSString+URLArguments.m */,
+				49378E8E2116B991005AAE98 /* GTMMZDBase64.m */,
+				49378E8F2116B991005AAE98 /* GTMNSString+URLArguments.h */,
+				49378E902116B991005AAE98 /* GTMDefines.h */,
+				49378E912116B991005AAE98 /* GTMMZDBase64.h */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		49378E922116B991005AAE98 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				49378E932116B991005AAE98 /* NSDate+XLExtension.h */,
+				49378E942116B991005AAE98 /* NSDate+XLUtilities.m */,
+				49378E952116B991005AAE98 /* NSDate+XLExtension.m */,
+				49378E962116B991005AAE98 /* NSDate+XLUtilities.h */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		495BC9CA2113472300C760CC = {
+			isa = PBXGroup;
+			children = (
+				495BC9D52113472300C760CC /* XLFoundation */,
+				495BC9EE2113472400C760CC /* XLFoundationTests */,
+				495BC9D42113472300C760CC /* Products */,
+				857BEA7AC60077DE1CAC81A7 /* Pods */,
+				7E6A08C114563EB652FBE4B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		495BC9D42113472300C760CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495BC9D32113472300C760CC /* XLFoundation.app */,
+				495BC9EB2113472400C760CC /* XLFoundationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495BC9D52113472300C760CC /* XLFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				49378E5C2116B991005AAE98 /* Classes */,
+				495BC9D62113472300C760CC /* AppDelegate.h */,
+				495BC9D72113472300C760CC /* AppDelegate.m */,
+				495BC9D92113472300C760CC /* ViewController.h */,
+				495BC9DA2113472300C760CC /* ViewController.m */,
+				495BC9DC2113472300C760CC /* Main.storyboard */,
+				495BC9DF2113472300C760CC /* Assets.xcassets */,
+				495BC9E12113472300C760CC /* LaunchScreen.storyboard */,
+				495BC9E42113472300C760CC /* Info.plist */,
+				495BC9E52113472300C760CC /* main.m */,
+			);
+			path = XLFoundation;
+			sourceTree = "<group>";
+		};
+		495BC9EE2113472400C760CC /* XLFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				495BC9EF2113472400C760CC /* XLFoundationTests.m */,
+				495BC9F12113472400C760CC /* Info.plist */,
+			);
+			path = XLFoundationTests;
+			sourceTree = "<group>";
+		};
+		7E6A08C114563EB652FBE4B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0CACDE2A53B0DC390FADB75 /* libPods-XLFoundation.a */,
+				35555F971D25D5B8C9A6AE23 /* libPods-XLFoundationTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		857BEA7AC60077DE1CAC81A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9705E026537B285A6EDF606 /* Pods-XLFoundation.debug.xcconfig */,
+				9A829C715356AA760649A92E /* Pods-XLFoundation.release.xcconfig */,
+				088C4B1D3D73792FB940237E /* Pods-XLFoundationTests.debug.xcconfig */,
+				5841A07FF14430B9284AB902 /* Pods-XLFoundationTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495BC9D22113472300C760CC /* XLFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495BC9F42113472400C760CC /* Build configuration list for PBXNativeTarget "XLFoundation" */;
+			buildPhases = (
+				2A0718222D4D9EEC2B43C036 /* [CP] Check Pods Manifest.lock */,
+				495BC9CF2113472300C760CC /* Sources */,
+				495BC9D02113472300C760CC /* Frameworks */,
+				495BC9D12113472300C760CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLFoundation;
+			productName = XLFoundation;
+			productReference = 495BC9D32113472300C760CC /* XLFoundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		495BC9EA2113472400C760CC /* XLFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495BC9F72113472400C760CC /* Build configuration list for PBXNativeTarget "XLFoundationTests" */;
+			buildPhases = (
+				0DE859D725F00CC83E9113EB /* [CP] Check Pods Manifest.lock */,
+				495BC9E72113472400C760CC /* Sources */,
+				495BC9E82113472400C760CC /* Frameworks */,
+				495BC9E92113472400C760CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495BC9ED2113472400C760CC /* PBXTargetDependency */,
+			);
+			name = XLFoundationTests;
+			productName = XLFoundationTests;
+			productReference = 495BC9EB2113472400C760CC /* XLFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495BC9CB2113472300C760CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = HONGLUO;
+				TargetAttributes = {
+					495BC9D22113472300C760CC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					495BC9EA2113472400C760CC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 495BC9D22113472300C760CC;
+					};
+				};
+			};
+			buildConfigurationList = 495BC9CE2113472300C760CC /* Build configuration list for PBXProject "XLFoundation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495BC9CA2113472300C760CC;
+			productRefGroup = 495BC9D42113472300C760CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495BC9D22113472300C760CC /* XLFoundation */,
+				495BC9EA2113472400C760CC /* XLFoundationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495BC9D12113472300C760CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495BC9E32113472300C760CC /* LaunchScreen.storyboard in Resources */,
+				495BC9E02113472300C760CC /* Assets.xcassets in Resources */,
+				495BC9DE2113472300C760CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495BC9E92113472400C760CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE859D725F00CC83E9113EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLFoundationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A0718222D4D9EEC2B43C036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLFoundation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495BC9CF2113472300C760CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49378EA72116B992005AAE98 /* NSArray+XLExtension.m in Sources */,
+				49378E9C2116B992005AAE98 /* NSData+XLEncrypt.m in Sources */,
+				49378E972116B992005AAE98 /* NSDictionary+XLExtension.m in Sources */,
+				49378E982116B992005AAE98 /* NSDictionary+XLURL.m in Sources */,
+				495BC9DB2113472300C760CC /* ViewController.m in Sources */,
+				49378E9E2116B992005AAE98 /* NSURL+XLExtension.m in Sources */,
+				49378E9F2116B992005AAE98 /* NSString+XLRender.m in Sources */,
+				49378E9D2116B992005AAE98 /* NSData+XLExtension.m in Sources */,
+				49378EA32116B992005AAE98 /* NSString+Compare.m in Sources */,
+				49378EA12116B992005AAE98 /* NSString+XLEncode.m in Sources */,
+				49378EA62116B992005AAE98 /* NSString+XLBase64.m in Sources */,
+				49378E9B2116B992005AAE98 /* NSLocale+XLExtenstion.m in Sources */,
+				49378E9A2116B992005AAE98 /* CLLocation+Sino.m in Sources */,
+				49378EA52116B992005AAE98 /* NSString+XLJSON.m in Sources */,
+				49378E992116B992005AAE98 /* NSMutableAttributedString+Format.m in Sources */,
+				495BC9E62113472300C760CC /* main.m in Sources */,
+				49378EA22116B992005AAE98 /* NSString+XLValidate.m in Sources */,
+				49378EAB2116B992005AAE98 /* GTMMZDBase64.m in Sources */,
+				49378EAC2116B992005AAE98 /* NSDate+XLUtilities.m in Sources */,
+				49378EAA2116B992005AAE98 /* GTMNSString+URLArguments.m in Sources */,
+				49378EA02116B992005AAE98 /* NSString+XLExtension.m in Sources */,
+				49378EA42116B992005AAE98 /* NSString+XLEncrypt.m in Sources */,
+				49378EA82116B992005AAE98 /* NSObject+XLSwizzling.m in Sources */,
+				495BC9D82113472300C760CC /* AppDelegate.m in Sources */,
+				49378EAD2116B992005AAE98 /* NSDate+XLExtension.m in Sources */,
+				49378EA92116B992005AAE98 /* NSObject+XLExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495BC9E72113472400C760CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495BC9F02113472400C760CC /* XLFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		495BC9ED2113472400C760CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495BC9D22113472300C760CC /* XLFoundation */;
+			targetProxy = 495BC9EC2113472400C760CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		495BC9DC2113472300C760CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495BC9DD2113472300C760CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		495BC9E12113472300C760CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495BC9E22113472300C760CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495BC9F22113472400C760CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		495BC9F32113472400C760CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495BC9F52113472400C760CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9705E026537B285A6EDF606 /* Pods-XLFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5SZR3LERF;
+				INFOPLIST_FILE = XLFoundation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XLFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		495BC9F62113472400C760CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A829C715356AA760649A92E /* Pods-XLFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5SZR3LERF;
+				INFOPLIST_FILE = XLFoundation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XLFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		495BC9F82113472400C760CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088C4B1D3D73792FB940237E /* Pods-XLFoundationTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5SZR3LERF;
+				INFOPLIST_FILE = XLFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XLFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLFoundation.app/XLFoundation";
+			};
+			name = Debug;
+		};
+		495BC9F92113472400C760CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5841A07FF14430B9284AB902 /* Pods-XLFoundationTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5SZR3LERF;
+				INFOPLIST_FILE = XLFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.XLFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLFoundation.app/XLFoundation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495BC9CE2113472300C760CC /* Build configuration list for PBXProject "XLFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495BC9F22113472400C760CC /* Debug */,
+				495BC9F32113472400C760CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495BC9F42113472400C760CC /* Build configuration list for PBXNativeTarget "XLFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495BC9F52113472400C760CC /* Debug */,
+				495BC9F62113472400C760CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495BC9F72113472400C760CC /* Build configuration list for PBXNativeTarget "XLFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495BC9F82113472400C760CC /* Debug */,
+				495BC9F92113472400C760CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495BC9CB2113472300C760CC /* Project object */;
+}
