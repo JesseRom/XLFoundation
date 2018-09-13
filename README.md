@@ -1,2 +1,2 @@
 # XLFoundation
-Objective-C Foundation extension
+The function extension of the common system NS object is organized in the form of catogry, which is convenient to use. For example, the NSDate object corresponds to the birthday and constellation acquisition, NSString object mailbox, mobile phone number, ID card legality verification and so on. It is designed to provide some methods that are closer to the application scenario and improve work efficiency.
