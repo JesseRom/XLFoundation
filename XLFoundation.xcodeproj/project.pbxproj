@@ -116,6 +116,16 @@
 		495BC9EB2113472400C760CC /* XLFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		495BC9EF2113472400C760CC /* XLFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFoundationTests.m; sourceTree = "<group>"; };
 		495BC9F12113472400C760CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496E4C93214A411C00FF9C4A /* NSArray+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+XL.h"; sourceTree = "<group>"; };
+		496E4C94214A413A00FF9C4A /* NSData+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+XL.h"; sourceTree = "<group>"; };
+		496E4C95214A415400FF9C4A /* NSDate+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+XL.h"; sourceTree = "<group>"; };
+		496E4C96214A417100FF9C4A /* NSDictionary+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XL.h"; sourceTree = "<group>"; };
+		496E4C97214A418D00FF9C4A /* NSLocale+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLocale+XL.h"; sourceTree = "<group>"; };
+		496E4C98214A41B000FF9C4A /* NSMutableAttributedString+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+XL.h"; sourceTree = "<group>"; };
+		496E4C99214A41D000FF9C4A /* NSObject+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XL.h"; sourceTree = "<group>"; };
+		496E4C9A214A41ED00FF9C4A /* NSString+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XL.h"; sourceTree = "<group>"; };
+		496E4C9B214A421200FF9C4A /* NSURL+XL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+XL.h"; sourceTree = "<group>"; };
+		496E4C9C214A426400FF9C4A /* XLFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFoundation.h; sourceTree = "<group>"; };
 		5841A07FF14430B9284AB902 /* Pods-XLFoundationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFoundationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLFoundationTests/Pods-XLFoundationTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A829C715356AA760649A92E /* Pods-XLFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLFoundation/Pods-XLFoundation.release.xcconfig"; sourceTree = "<group>"; };
 		C0CACDE2A53B0DC390FADB75 /* libPods-XLFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,17 +155,18 @@
 		49378E5C2116B991005AAE98 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				49378E5D2116B991005AAE98 /* NSDictionary */,
-				49378E622116B991005AAE98 /* NSMutableAttributedString */,
-				49378E652116B991005AAE98 /* CLLocation */,
-				49378E682116B991005AAE98 /* NSLocale */,
-				49378E6B2116B991005AAE98 /* NSData */,
-				49378E702116B991005AAE98 /* NSURL */,
-				49378E732116B991005AAE98 /* NSString */,
-				49378E842116B991005AAE98 /* NSArray */,
-				49378E872116B991005AAE98 /* NSObject */,
 				49378E8C2116B991005AAE98 /* ThirdParty */,
+				49378E652116B991005AAE98 /* CLLocation */,
+				49378E842116B991005AAE98 /* NSArray */,
+				49378E6B2116B991005AAE98 /* NSData */,
 				49378E922116B991005AAE98 /* NSDate */,
+				49378E5D2116B991005AAE98 /* NSDictionary */,
+				49378E682116B991005AAE98 /* NSLocale */,
+				49378E622116B991005AAE98 /* NSMutableAttributedString */,
+				49378E872116B991005AAE98 /* NSObject */,
+				49378E732116B991005AAE98 /* NSString */,
+				49378E702116B991005AAE98 /* NSURL */,
+				496E4C9C214A426400FF9C4A /* XLFoundation.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -167,6 +178,7 @@
 				49378E5F2116B991005AAE98 /* NSDictionary+XLURL.m */,
 				49378E602116B991005AAE98 /* NSDictionary+XLURL.h */,
 				49378E612116B991005AAE98 /* NSDictionary+XLExtension.h */,
+				496E4C96214A417100FF9C4A /* NSDictionary+XL.h */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
@@ -176,6 +188,7 @@
 			children = (
 				49378E632116B991005AAE98 /* NSMutableAttributedString+Format.m */,
 				49378E642116B991005AAE98 /* NSMutableAttributedString+Format.h */,
+				496E4C98214A41B000FF9C4A /* NSMutableAttributedString+XL.h */,
 			);
 			path = NSMutableAttributedString;
 			sourceTree = "<group>";
@@ -194,6 +207,7 @@
 			children = (
 				49378E692116B991005AAE98 /* NSLocale+XLExtenstion.h */,
 				49378E6A2116B991005AAE98 /* NSLocale+XLExtenstion.m */,
+				496E4C97214A418D00FF9C4A /* NSLocale+XL.h */,
 			);
 			path = NSLocale;
 			sourceTree = "<group>";
@@ -205,6 +219,7 @@
 				49378E6D2116B991005AAE98 /* NSData+XLEncrypt.m */,
 				49378E6E2116B991005AAE98 /* NSData+XLEncrypt.h */,
 				49378E6F2116B991005AAE98 /* NSData+XLExtension.m */,
+				496E4C94214A413A00FF9C4A /* NSData+XL.h */,
 			);
 			path = NSData;
 			sourceTree = "<group>";
@@ -214,6 +229,7 @@
 			children = (
 				49378E712116B991005AAE98 /* NSURL+XLExtension.h */,
 				49378E722116B991005AAE98 /* NSURL+XLExtension.m */,
+				496E4C9B214A421200FF9C4A /* NSURL+XL.h */,
 			);
 			path = NSURL;
 			sourceTree = "<group>";
@@ -237,6 +253,7 @@
 				49378E812116B991005AAE98 /* NSString+XLBase64.m */,
 				49378E822116B991005AAE98 /* NSString+Compare.h */,
 				49378E832116B991005AAE98 /* NSString+XLValidate.h */,
+				496E4C9A214A41ED00FF9C4A /* NSString+XL.h */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -246,6 +263,7 @@
 			children = (
 				49378E852116B991005AAE98 /* NSArray+XLExtension.m */,
 				49378E862116B991005AAE98 /* NSArray+XLExtension.h */,
+				496E4C93214A411C00FF9C4A /* NSArray+XL.h */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -257,6 +275,7 @@
 				49378E892116B991005AAE98 /* NSObject+XLExtension.m */,
 				49378E8A2116B991005AAE98 /* NSObject+XLSwizzling.h */,
 				49378E8B2116B991005AAE98 /* NSObject+XLExtension.h */,
+				496E4C99214A41D000FF9C4A /* NSObject+XL.h */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -280,6 +299,7 @@
 				49378E942116B991005AAE98 /* NSDate+XLUtilities.m */,
 				49378E952116B991005AAE98 /* NSDate+XLExtension.m */,
 				49378E962116B991005AAE98 /* NSDate+XLUtilities.h */,
+				496E4C95214A415400FF9C4A /* NSDate+XL.h */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";

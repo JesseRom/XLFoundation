@@ -10,6 +10,6 @@
 
 @interface NSLocale(XLExtenstion)
 
-+ (NSLocale *)mzd_simplifiedChineseLocale;
++ (NSLocale *)xl_simplifiedChineseLocale;
 
 @end

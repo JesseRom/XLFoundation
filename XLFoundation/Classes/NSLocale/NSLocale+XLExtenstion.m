@@ -10,7 +10,7 @@
 
 @implementation NSLocale(XLExtenstion)
 
-+ (NSLocale *)mzd_simplifiedChineseLocale {
++ (NSLocale *)xl_simplifiedChineseLocale {
     static NSLocale *locale = nil;
     
     NSString *localeIdentifier = [NSLocale.currentLocale localeIdentifier];
