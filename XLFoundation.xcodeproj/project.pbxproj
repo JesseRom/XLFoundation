@@ -12,7 +12,7 @@
 		49378E982116B992005AAE98 /* NSDictionary+XLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E5F2116B991005AAE98 /* NSDictionary+XLURL.m */; };
 		49378E992116B992005AAE98 /* NSMutableAttributedString+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E632116B991005AAE98 /* NSMutableAttributedString+Format.m */; };
 		49378E9A2116B992005AAE98 /* CLLocation+Sino.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E672116B991005AAE98 /* CLLocation+Sino.m */; };
-		49378E9B2116B992005AAE98 /* NSLocale+XLExtenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E6A2116B991005AAE98 /* NSLocale+XLExtenstion.m */; };
+		49378E9B2116B992005AAE98 /* NSLocale+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E6A2116B991005AAE98 /* NSLocale+XLExtension.m */; };
 		49378E9C2116B992005AAE98 /* NSData+XLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E6D2116B991005AAE98 /* NSData+XLEncrypt.m */; };
 		49378E9D2116B992005AAE98 /* NSData+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E6F2116B991005AAE98 /* NSData+XLExtension.m */; };
 		49378E9E2116B992005AAE98 /* NSURL+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49378E722116B991005AAE98 /* NSURL+XLExtension.m */; };
@@ -64,8 +64,8 @@
 		49378E642116B991005AAE98 /* NSMutableAttributedString+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Format.h"; sourceTree = "<group>"; };
 		49378E662116B991005AAE98 /* CLLocation+Sino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Sino.h"; sourceTree = "<group>"; };
 		49378E672116B991005AAE98 /* CLLocation+Sino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Sino.m"; sourceTree = "<group>"; };
-		49378E692116B991005AAE98 /* NSLocale+XLExtenstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale+XLExtenstion.h"; sourceTree = "<group>"; };
-		49378E6A2116B991005AAE98 /* NSLocale+XLExtenstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+XLExtenstion.m"; sourceTree = "<group>"; };
+		49378E692116B991005AAE98 /* NSLocale+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale+XLExtension.h"; sourceTree = "<group>"; };
+		49378E6A2116B991005AAE98 /* NSLocale+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+XLExtension.m"; sourceTree = "<group>"; };
 		49378E6C2116B991005AAE98 /* NSData+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XLExtension.h"; sourceTree = "<group>"; };
 		49378E6D2116B991005AAE98 /* NSData+XLEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XLEncrypt.m"; sourceTree = "<group>"; };
 		49378E6E2116B991005AAE98 /* NSData+XLEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XLEncrypt.h"; sourceTree = "<group>"; };
@@ -205,8 +205,8 @@
 		49378E682116B991005AAE98 /* NSLocale */ = {
 			isa = PBXGroup;
 			children = (
-				49378E692116B991005AAE98 /* NSLocale+XLExtenstion.h */,
-				49378E6A2116B991005AAE98 /* NSLocale+XLExtenstion.m */,
+				49378E692116B991005AAE98 /* NSLocale+XLExtension.h */,
+				49378E6A2116B991005AAE98 /* NSLocale+XLExtension.m */,
 				496E4C97214A418D00FF9C4A /* NSLocale+XL.h */,
 			);
 			path = NSLocale;
@@ -524,7 +524,7 @@
 				49378EA32116B992005AAE98 /* NSString+Compare.m in Sources */,
 				49378EA12116B992005AAE98 /* NSString+XLEncode.m in Sources */,
 				49378EA62116B992005AAE98 /* NSString+XLBase64.m in Sources */,
-				49378E9B2116B992005AAE98 /* NSLocale+XLExtenstion.m in Sources */,
+				49378E9B2116B992005AAE98 /* NSLocale+XLExtension.m in Sources */,
 				49378E9A2116B992005AAE98 /* CLLocation+Sino.m in Sources */,
 				49378EA52116B992005AAE98 /* NSString+XLJSON.m in Sources */,
 				49378E992116B992005AAE98 /* NSMutableAttributedString+Format.m in Sources */,

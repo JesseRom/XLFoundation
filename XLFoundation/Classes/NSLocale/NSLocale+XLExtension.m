@@ -1,14 +1,14 @@
 //
-//  NSLocale+XLExtenstion.m
+//  NSLocale+XLExtension.m
 //  XLFoundation
 //
 //  Created by HONGLUO on 2018/8/2.
 //  Copyright © 2018年 HONGLUO. All rights reserved.
 //
 
-#import "NSLocale+XLExtenstion.h"
+#import "NSLocale+XLExtension.h"
 
-@implementation NSLocale(XLExtenstion)
+@implementation NSLocale(XLExtension)
 
 + (NSLocale *)xl_simplifiedChineseLocale {
     static NSLocale *locale = nil;

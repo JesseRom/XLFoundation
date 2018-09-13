@@ -14,7 +14,7 @@
 #import "NSDate+XL.h"
 #import "NSDictionary+XL.h"
 #import "NSLocale+XL.h"
-#import "NSMutablAttributedString+XL.h"
+#import "NSMutableAttributedString+XL.h"
 #import "NSObject+XL.h"
 #import "NSString+XL.h"
 #import "NSURL+XL.h"

@@ -7,7 +7,7 @@
 //
 
 #import "NSDate+XLExtension.h"
-#import "NSLocale+XLExtenstion.h"
+#import "NSLocale+XLExtension.h"
 
 @implementation NSDate(XLExtension)
 

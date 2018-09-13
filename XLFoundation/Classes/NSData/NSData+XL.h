@@ -10,7 +10,6 @@
 #define NSData_XL_h
 
 #import "NSData+XLExtension.h"
-#import "NSData+XLBase64.h"
 #import "NSData+XLEncrypt.h"
 
 #endif /* NSData_XL_h */

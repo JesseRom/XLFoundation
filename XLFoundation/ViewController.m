@@ -8,15 +8,7 @@
 
 #import "ViewController.h"
 #import <ReactiveObjC/ReactiveObjC.h>
-
-#import "NSArray+XLExtension.h"
-
-#import "NSData+XLEncrypt.h"
-
-#import "NSDate+XLExtension.h"
-#import "NSDate+XLUtilities.h"
-
-#import "NSDictionary+XLURL.h"
+#import "XLFoundation.h"
 
 @interface ViewController ()
 

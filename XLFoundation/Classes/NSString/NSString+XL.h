@@ -11,7 +11,6 @@
 
 #import "NSString+XLEncrypt.h"
 #import "NSString+XLJSON.h"
-#import "NSString+XLURL.h"
 #import "NSString+XLEncode.h"
 #import "NSString+XLBase64.h"
 #import "NSString+XLRender.h"
